@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="onvertidor de tasas" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-03T00:05:22.376Z" hostname="HAROLDPINEDA" time="37.473">
+  <properties/>
+  <testcase name="Validar la conversión de tasas" classname="onvertidor de tasas" time="37.473"/>
+  <system-out><![CDATA[
+Scenario: Validar la conversión de tasas                          ?[90m# src/test/resources/features/conversorTasas.feature:3?[0m
+  ?[32mGiven ?[0m?[32mel usuario ingresa a la pagina web?[0m                        ?[90m# main.java.com.example.stepdefinitions.OpenWebPageStepDefinitions.usuarioEnPaginaWeb()?[0m
+  ?[32mWhen ?[0m?[32mel usuario ingresa a la herramienta de conversión de tasas?[0m ?[90m# main.java.com.example.stepdefinitions.OpenWebPageStepDefinitions.usuarioIngresaCredenciales()?[0m
+  ?[32mThen ?[0m?[32mel resultado de conversión?[0m                                 ?[90m# main.java.com.example.stepdefinitions.OpenWebPageStepDefinitions.usuarioAccedeSistema()?[0m
+]]></system-out>
+  <system-err><![CDATA[jul 02, 2025 7:05:24 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+jul 02, 2025 7:05:24 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.120. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+</testsuite>
